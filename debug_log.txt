@@ -1,0 +1,18 @@
+--- LOG BARU (submit_score) PADA 2025-06-14 07:15:35 ---
+Script submit_score.php dimulai.
+Mendebug isi _POST: Array
+(
+    [player_id] => 1
+    [level_id] => 1
+    [time] => 9.511915
+)
+
+Data POST lengkap diterima.
+File db_connect.php berhasil di-include.
+Koneksi DB berhasil.
+Data di-assign: player_id=1, level_id=1, time=9.511915
+Mempersiapkan statement SELECT untuk cek skor...
+Statement SELECT berhasil dieksekusi.
+Skor lama ditemukan. Membandingkan waktu...
+Waktu baru (9.511915) lebih baik dari waktu lama (10.7014). Mengupdate skor...
+Koneksi ditutup. Script selesai.
